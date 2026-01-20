@@ -1,0 +1,31 @@
+class LoginService {
+
+    UserDatabase database;
+
+    boolean login(String user, String password) {
+
+        if (database.userExists(user) 
+            && database.passwordMatches(user, hash(password))) {
+
+            allowAccess();
+            return true;
+
+        } else {
+            denyAccess();
+            return false;
+        }
+    }
+
+    String hash(String password) {
+        // pseudo hashing logic
+        return "hashed_" + password;
+    }
+
+    void allowAccess() {
+        // grant access
+    }
+
+    void denyAccess() {
+        // deny access
+    }
+}

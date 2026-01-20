@@ -1,0 +1,21 @@
+class Database {
+
+    // Represents stored user data
+    List<String> usernames;
+    List<String> hashedPasswords;
+
+    void storeUser(String username, String hashedPassword) {
+        usernames.add(username);
+        hashedPasswords.add(hashedPassword);
+    }
+
+    boolean userExists(String username) {
+        // check if username is stored
+        return usernames.contains(username);
+    }
+
+    boolean passwordMatches(String username, String hashedPassword) {
+        // compare stored hash with given hash
+        return true; // simplified
+    }
+}
