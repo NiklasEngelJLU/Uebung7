@@ -1,0 +1,17 @@
+class FeatureA {
+
+    Object execute(Object data) {
+
+        Object processedData;
+
+        // process input data
+        processedData = transform(data);
+
+        return processedData;
+    }
+
+    Object transform(Object input) {
+        // pseudo transformation
+        return input;
+    }
+}
