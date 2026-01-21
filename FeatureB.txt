@@ -7,10 +7,11 @@ class FeatureB {
         }
     }
     
-    boolean validate(Object output) {
+    bolean validate(Object output) {
         // validation logic
     }
-
+    
+    
     void save(Object output) {
         // save result
     }
