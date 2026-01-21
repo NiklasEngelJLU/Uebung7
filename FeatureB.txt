@@ -6,6 +6,10 @@ class FeatureB {
             save(input);
         }
     }
+    
+    boolean validate(Object output) {
+        // validation logic
+    }
 
     void save(Object output) {
         // save result
