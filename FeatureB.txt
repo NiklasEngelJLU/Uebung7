@@ -1,0 +1,13 @@
+class FeatureB {
+
+    void execute(Object input) {
+
+        if (validate(input)) {
+            save(input);
+        }
+    }
+
+    void save(Object output) {
+        // save result
+    }
+}
