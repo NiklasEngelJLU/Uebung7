@@ -4,7 +4,7 @@ class Database {
     List<String> usernames;
     List<String> hashedPasswords;
 
-    double storeUser(String username, String hashedPassword) {
+    void storeUser(String username, String hashedPassword) {
         usernames.add(username);
         hashedPasswords.add(hashedPassword);
     }
