@@ -14,4 +14,9 @@ class FeatureA {
         // pseudo transformation
         return input;
     }
+
+    Object toString(Object input){
+        //transformation
+        return input;
+    }
 }
