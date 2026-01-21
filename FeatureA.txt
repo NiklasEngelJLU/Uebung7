@@ -10,7 +10,7 @@ class FeatureA {
         return processedData;
     }
 
-    Object transform(Object input) {
+    int transform(Object input) {
         // pseudo transformation
         return input;
     }
