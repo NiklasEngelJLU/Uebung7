@@ -10,7 +10,11 @@ class FeatureA {
         return processedData;
     }
 
+<<<<<<< HEAD
     int transform(Object input) {
+=======
+    double transform(Object input) {
+>>>>>>> cb80486 (Changed the return type of FeatureA.txt)
         // pseudo transformation
         return input;
     }
